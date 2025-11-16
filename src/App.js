@@ -14,11 +14,19 @@ export default function App() {
         </main>
         <footer className="App-footer">
           Coded by Elham Soldouzi open sourced on{" "}
-          <a href="https://github.com/ElhamSoldouzi/react-dictionary-app">
+          <a
+            href="https://github.com/ElhamSoldouzi/react-dictionary-app"
+            target="-blank"
+          >
             GitHub
           </a>{" "}
           and hosted on{" "}
-          <a href="https://react-dictionary-app-seven.vercel.app/">Vercel</a>
+          <a
+            href="https://react-dictionary-app-seven.vercel.app/"
+            target="-blank"
+          >
+            Vercel
+          </a>
         </footer>
       </div>
     </div>
