@@ -12,7 +12,14 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">Coded by Elham</footer>
+        <footer className="App-footer">
+          Coded by Elham Soldouzi open sourced on{" "}
+          <a href="https://github.com/ElhamSoldouzi/react-dictionary-app">
+            GitHub
+          </a>{" "}
+          and hosted on{" "}
+          <a href="https://react-dictionary-app-seven.vercel.app/">Vercel</a>
+        </footer>
       </div>
     </div>
   );
