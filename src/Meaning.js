@@ -1,4 +1,5 @@
 import React from "react";
+import "./Meaning.css";
 import Synonyms from "./Synonyms";
 
 export default function Meaning(props) {
@@ -13,15 +14,12 @@ export default function Meaning(props) {
       {limitedDefinitions.map(function (definition, index) {
         return (
           <div key={index} className="definition-card">
-            <p>
-              <strong>Definition:</strong>
-              {definition.definition}
-            </p>
+            <div className="definition">{definition.definition}</div>
             {definition.example && (
-              <p>
+              <div className="example">
                 <strong>Example:</strong>
                 <em>{definition.example}</em>
-              </p>
+              </div>
             )}
             {definition.synonyms && definition.synonyms.length > 0 && (
               <p>
