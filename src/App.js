@@ -17,7 +17,7 @@ export default function App() {
           <a
             href="https://github.com/ElhamSoldouzi/react-dictionary-app"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
           >
             GitHub
           </a>{" "}
@@ -25,7 +25,7 @@ export default function App() {
           <a
             href="https://react-dictionary-app-seven.vercel.app/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
           >
             Vercel
           </a>
